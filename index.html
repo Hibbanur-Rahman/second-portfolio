@@ -1,0 +1,401 @@
+<html>
+
+<head>
+    <title>Hibban's portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <div class="side">
+        <navbar class="navbar">
+            <!-- <video width="600" height="500" controls autoplay loop>
+                <source src="img/hibban video.mp4" type="video/mp4" />
+                <source src="movie.ogg" type="video/ogg" />
+                Your browser does not support the video element.
+             </video> -->
+            <img src="img/hibban-logo2.png">
+            <navlist class="navlist">
+                <ul>
+                    <a href="#home">
+                        <li class="item active home1" onclick="active()"><i class="glyphicon glyphicon-home"></i>Home</li>
+                    </a>
+                    <hr>
+                    <a href="#about">
+                        <li class="item about1" onclick="active()"><i class="glyphicon glyphicon-user"></i>About</li>
+                    </a>
+                    <hr>
+                    <a href="#services">
+                        <li class="item services1" onclick="active()"><i class="fa fa-list"></i>Services</li>
+                    </a>
+                    <hr>
+                    <a href="#portfolio">
+                        <li class="item portfolio1" onclick="active()"><i class='fa fa-briefcase'></i>Portfolio</li>
+                    </a>
+                    <hr>
+                    <a href="#contact-me">
+                        <li class="item contact-me1" onclick="active()"><i class="fa fa-comments"></i>Contact</li>
+                    </a>
+                    <hr>
+                </ul>
+            </navlist>
+        </navbar>
+    </div>
+
+<!--====================================================== main body is started ========================================================================-->
+
+    <div class="main_body" >
+
+        <!--====================================================== Home is started ========================================================================-->
+
+        <div class="home" id="home" onmousemove="activate('home')">
+            <div class="first">
+                <h1>Hello,my name is <span class="name2">Hibbanur Rahman</span></h1>
+                <h1 class="first-typing">I'm a <div class="typing">web Designer</div></h1>
+                <p>i'm a web Designer with extensive experience for over 3 Month. My expertise to create and website
+                    design,graphic design, and many more...</p>
+                <a href="https://www.linkedin.com/in/hibbanur-rahman-826864231/"><button><span></span> About Me</button></a>
+            </div>
+            <div class="photo">
+                <img class="hibban_photo" src="img/final_photo.png">
+            </div>
+        </div>
+        <!--====================================================== Home is end ========================================================================-->
+
+
+        <!--====================================================== aboutis started ========================================================================-->
+
+        <section class="about hide" id="about" onmousemove="activate('about')">
+            <h1>About Me</h1>
+            <div class="upper"></div>
+            <div class="lower"></div>
+            <h2>I'm Hibbanur Rahman and <span>web Developer</span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus maiores placeat
+                accusantium sint cumque ipsum, nam ea hic nobis explicabo velit fuga corporis facere rerum quidem nihil
+                illum. Nemo!
+                Quam alias, omnis suscipit illo tenetur voluptatum obcaecati quisquam minima blanditiis eos impedit
+                minus laudantium repellat accusamus ad recusandae aperiam mollitia nobis repudiandae voluptates iure
+                iste rerum. Numquam, assumenda molestiae!
+            </p>
+            <div class="containing" >
+
+                <div class="information">
+                    <div class="birthday">
+                        <div class="first_birthday">
+                            <p><b>Birthday:</b>5 February 2004</p>
+                            <hr>
+                            <p><b>Website :</b> www.domain.com</p>
+                            <hr>
+                            <p><b>Degree:</b> cs</p>
+                            <hr>
+                            <p><b>City:</b> Hyderabad</p>
+                            <hr>
+                        </div>
+                        <div class="second_birthday">
+                            <p><b>Age:</b>18</p>
+                            <hr>
+                            <p><b>Email:</b> hibbanrahmanhyt@gmail.com</p>
+                            <hr>
+                            <p><b>Phone:</b> +91-9973152523</p>
+                            <hr>
+                            <p><b>Freelance:</b> Availabel</p>
+                            <hr>
+                        </div>
+                    </div>
+                    <a href="HIBBANUR_Resume.pdf"><button><span></span>Download CV</button></a>
+                    <button><span></span>Hire Me</button>
+                </div>
+
+                <div class="css1">
+                    <div>
+                        <p>css</p>
+                        <progress id="file" value="75" max="100"> 75% </progress>
+                        <div class="label1">75%</div>
+                    </div>
+                    <div>
+                        <p>html</p>
+                        <progress id="file" value="75" max="100"> 75% </progress>
+                        <div class="label1">75%</div>
+                    </div>
+                    <div>
+                        <p>java script</p>
+                        <progress id="file" value="75" max="100"> 75% </progress>
+                        <div class="label1">75%</div>
+                    </div>
+                    <div>
+                        <p>python</p>
+                        <progress id="file" value="75" max="100"> 75% </progress>
+                        <div class="label1">75%</div>
+                    </div>
+                    <!-- <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                      </div> -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="education">
+                    <h3 class="education-title">Education</h3>
+                    <div class="timeline-box">
+                        <div class="timeline shadow-dark">
+                            <div class="timeline-item">
+                                <div class="circle-dot"></div>
+                                <h3 class="timeline-date">
+                                    <i class="fa fa-calendar"></i>
+                                    2021-2025
+                                </h3>
+                                <h4 class="timeline-tittle">Bachelor's of Technology</h3>
+                                    <p class="timeline-text">
+                                        Pursing In B.Tech In 2nd Year At Maulana Azad National Urdu University Hydetabad In Computer Science Stream With Aggrigate 8.74 CGPA.
+                                    </p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="circle-dot"></div>
+                                <h3 class="timeline-date">
+                                    <i class="fa fa-calendar"></i>
+                                    2019-2021
+                                </h3>
+                                <h4 class="timeline-tittle">Intermediate</h3>
+                                    <p class="timeline-text">
+                                        I Completed Intermediate From CBSE In Physics,Chemistry, Math With Aggrigate 85%
+                                    </p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="circle-dot"></div>
+                                <h3 class="timeline-date">
+                                    <i class="fa fa-calendar"></i>
+                                    2018-2019
+                                </h3>
+                                <h4 class="timeline-tittle">Matriculation</h3>
+                                    <p class="timeline-text">
+                                        I Completed 10th From Bihar Board With Aggrigate 76.2%
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="experince education">
+                    <h3 class="experince-title">Experince</h3>
+                    <div class="timeline-box">
+                        <div class="timeline shadow-dark">
+                            <div class="timeline-item">
+                                <div class="circle-dot"></div>
+                                <h3 class="timeline-date">
+                                    <i class="fa fa-calendar"></i>
+                                    2021-2025
+                                </h3>
+                                <h4 class="timeline-tittle">Bachelor's of Technology</h3>
+                                    <p class="timeline-text">
+                                        Pursing In B.Tech In 2nd Year At Maulana Azad National Urdu University Hydetabad In Computer Science Stream With Aggrigate 8.74 CGPA.
+
+                                    </p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="circle-dot"></div>
+                                <h3 class="timeline-date">
+                                    <i class="fa fa-calendar"></i>
+                                    2019-2021
+                                </h3>
+                                <h4 class="timeline-tittle">Intermediate</h3>
+                                    <p class="timeline-text">
+                                        I Completed Intermediate From CBSE In Physics,Chemistry, Math With Aggrigate 85%
+
+                                    </p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="circle-dot"></div>
+                                <h3 class="timeline-date">
+                                    <i class="fa fa-calendar"></i>
+                                    2018-2019
+                                </h3>
+                                <h4 class="timeline-tittle">Matriculation</h3>
+                                    <p class="timeline-text">
+                                        I Completed 10th From Bihar Board With Aggrigate 76.2%
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--====================================================== about is end ========================================================================-->
+
+
+        <!--====================================================== services is started ========================================================================-->
+
+        <section class="services hide" id="services" onmousemove="activate('services')">
+            <h3 class="service-title">Services</h3>
+            <div class="upper"></div>
+            <div class="lower"></div>
+            <div class="services-row">
+                <div class="services-box shadow-dark">
+                    <div class="services-icon">
+                        <i class="fa fa-mobile-phone"></i>
+                    </div>
+                    <h3>App Developer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque porro odit doloribus quasi
+                        quia at? Est sequi quas odit eum. Amet doloremque quod necessitatibus veniam dolores modi
+                        excepturi consequatur aliquam.</p>
+                </div>
+                <div class="services-box shadow-dark">
+                    <div class="services-icon">
+                        <i class="fa fa-laptop"></i>
+                    </div>
+                    <h3>Web Developer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque porro odit doloribus quasi
+                        quia at? Est sequi quas odit eum. Amet doloremque quod necessitatibus veniam dolores modi
+                        excepturi consequatur aliquam.</p>
+                </div>
+                <div class="services-box shadow-dark">
+                    <div class="services-icon">
+                        <i class="bi bi-palette-fill"></i>
+                    </div>
+                    <h3>Web Designer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque porro odit doloribus quasi
+                        quia at? Est sequi quas odit eum. Amet doloremque quod necessitatibus veniam dolores modi
+                        excepturi consequatur aliquam.</p>
+                </div>
+            </div>
+            <div class="services-row">
+                <div class="services-box shadow-dark">
+                    <div class="services-icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque porro odit doloribus quasi
+                        quia at? Est sequi quas odit eum. Amet doloremque quod necessitatibus veniam dolores modi
+                        excepturi consequatur aliquam.</p>
+                </div>
+                <div class="services-box shadow-dark">
+                    <div class="services-icon">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <h3>Web scraper</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque porro odit doloribus quasi
+                        quia at? Est sequi quas odit eum. Amet doloremque quod necessitatibus veniam dolores modi
+                        excepturi consequatur aliquam.</p>
+                </div>
+                <div class="services-box shadow-dark">
+                    <div class="services-icon">
+                        <i class="bi bi-megaphone"></i>
+                    </div>
+                    <h3>App Developer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque porro odit doloribus quasi
+                        quia at? Est sequi quas odit eum. Amet doloremque quod necessitatibus veniam dolores modi
+                        excepturi consequatur aliquam.</p>
+                </div>
+            </div>
+
+        </section>
+        <!--====================================================== services is end ========================================================================-->
+
+
+        <!--====================================================== portfolio is started ========================================================================-->
+
+        <section class="portfolio hide" id="portfolio" onmousemove="activate('portfolio')">
+            <h1>Portfolio</h1>
+            <div class="upper"></div>
+            <div class="lower"></div>
+            <h3>My Last Projects:</h3>
+            <div class="portfolio-row">
+                <div class="portfolio-box shadow-dark">
+                    <a href="https://hibbanur-rahman.github.io/ecwid-clone/">
+                        <img src="./img/ecwid-clone-website.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-box shadow-dark">
+                    <a href="https://hibbanur-rahman.github.io/WEB/">
+                        <img src="./img/ham-solution-photo.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-box shadow-dark">
+                    <a href="https://hibbanur-rahman.github.io/portfolio/">
+                        <img src="./img/portfolio-photo.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="portfolio-row">
+                <div class="portfolio-box shadow-dark">
+                    <a href="https://hibbanur-rahman.github.io/hibban-calculator/">
+                        <img src="./img/calculator-photo.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-box shadow-dark">
+                    <a href="https://hibbanur-rahman.github.io/weather-app/">
+                        <img src="./img/weather-app.png" alt="">
+                    </a>
+                </div>
+                <div class="portfolio-box shadow-dark">
+                    <a href="https://hibbanur-rahman.github.io/temperature-converter/">
+                        <img src="./img/temperature-converter-photo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--====================================================== portfolio is end ========================================================================-->
+
+
+        <!--====================================================== contact-me is started ========================================================================-->
+
+        <section class="contact-me hide" id="contact-me" onmousemove="activate('contact-me')">
+            <h1>Contact Me</h1>
+            <div class="upper"></div>
+            <div class="lower"></div>
+            <div class="contact-headings">
+                <h3>Have You Any Questions?</h3>
+                <h4>I'M AT YOUR SERVICE</h5>
+            </div>
+            <div class="contact-icons">
+                <div class="contact-list">
+                    <i class="fa fa-phone"></i>
+                    <h3>Call Us On</h3>
+                    <h3>+91-9973152523</h3>
+                </div>
+                <div class="contact-list">
+                    <i class="fa fa-map-marker"></i>
+                    <h3>Office</h3>
+                    <h3>GacchiBowli,Hyderabad</h3>
+                </div>
+                <div class="contact-list">
+                    <i class="fa fa-envelope"></i>
+                    <h3>Email</h3>
+                    <h3>hibbanrahmanhyt@gmail.com</h3>
+                </div>
+                <div class="contact-list">
+                    <i class="fa fa-globe"></i>
+                    <h3>Website</h3>
+                    <a><h3>https://hibbanur-rahman.github.io/portfolio/</h3></a>
+                </div>
+            </div>
+            <div class="contact-middle">
+                <h3>SEND ME AN EMAIL</h3>
+                <h4>I'M VERY RESPONSIVE TO MESSAGES</h4>
+            </div>
+            <form class="form">
+                <div class="form-iv">
+                    <input class="name shadow-dark" type="Name" placeholder="Name" required>
+                    <input class="Email shadow-dark" type="email" placeholder="Email" required>
+                </div>
+                <div class="form-middle">
+                    <input class="subject shadow-dark" type="text" placeholder="Subject" required>
+                </div>
+                <div class="contact-text">
+                    <textarea class="text-area shadow-dark"></textarea>
+                </div>
+                <button class="button shadow-dark">Send Message</button>
+            </form>
+        </section>
+
+        <!--====================================================== contact-me is end ========================================================================-->
+
+    </div>
+    <!--====================================================== main body is end ========================================================================-->
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>
